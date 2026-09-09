@@ -219,7 +219,7 @@ export default function App() {
 
       {/* Full-bleed header image / hero */}
       <section className="relative w-full h-[440px] sm:h-[560px] overflow-hidden border-b border-[color:var(--ink)]">
-        <PhotoPanel catId="furniture" className="h-full" iconSize={72} />
+        <PhotoPanel catId="furniture" image="/images/hero-dining-room.jpg" imageAlt="Styled dining room with East Bay Prop Co. furniture" className="h-full" iconSize={72} />
         <div
           className="absolute inset-0"
           style={{ background: "linear-gradient(0deg, rgba(46,36,31,0.82) 0%, rgba(46,36,31,0.35) 45%, rgba(46,36,31,0.05) 75%)" }}
