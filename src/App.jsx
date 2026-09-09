@@ -15,12 +15,6 @@ const CATEGORIES = [
   { id: "rugs", label: "Rugs", icon: LayoutGrid, tone: "mauve" },
 ];
 
-const GALLERY = [
-  { cat: "furniture", label: "The Living Room Edit", note: "Sofas, credenzas & seating" },
-  { cat: "rugs", label: "Rugs & Textiles", note: "Layered rugs and soft goods" },
-  { cat: "small-props", label: "Small Props", note: "Tabletop styling & finishing touches" },
-];
-
 const TONES = {
   kraft: "linear-gradient(135deg, #EFE1C9 0%, #C7A667 100%)",
   sage: "linear-gradient(135deg, #E1E6D2 0%, #8B9A6D 100%)",
@@ -285,31 +279,6 @@ export default function App() {
               </div>
             ))}
           </div>
-        </div>
-      </section>
-
-      {/* Editorial gallery — more images, minimal text */}
-      <section className="max-w-6xl mx-auto px-4 sm:px-8 py-14">
-        <h2 className="font-display text-2xl sm:text-3xl tracking-tight mb-6" style={{ fontWeight: 600 }}>
-          Shop by Collection
-        </h2>
-        <div className="grid sm:grid-cols-3 gap-5">
-          {GALLERY.map((g) => (
-            <div key={g.label} className="relative rounded-lg overflow-hidden border border-[color:var(--ink)]">
-              <PhotoPanel catId={g.cat} className="aspect-square" iconSize={40} fit="contain" />
-              <div
-                className="absolute inset-x-0 bottom-0 px-4 py-3"
-                style={{ background: "linear-gradient(to top, rgba(46,36,31,0.85), rgba(46,36,31,0))" }}
-              >
-                <p className="font-display text-[19px]" style={{ fontWeight: 600, color: "#FCF7F0" }}>
-                  {g.label}
-                </p>
-                <p className="font-mono text-[10px] uppercase tracking-wider" style={{ color: "#FCF7F0", opacity: 0.8 }}>
-                  {g.note}
-                </p>
-              </div>
-            </div>
-          ))}
         </div>
       </section>
 
