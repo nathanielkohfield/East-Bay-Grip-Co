@@ -32,9 +32,10 @@ function catMeta(catId) {
   return CATEGORIES.find((c) => c.id === catId);
 }
 
-function PhotoPanel({ catId, image, imageAlt, className = "h-48", iconSize = 34 }) {
+function PhotoPanel({ catId, image, imageAlt, className = "h-48", iconSize = 34, fit = "cover" }) {
   const meta = catMeta(catId);
   const Icon = meta.icon;
+  const fitClass = fit === "contain" ? "object-contain" : "object-cover";
 
   if (image) {
     return (
@@ -42,7 +43,7 @@ function PhotoPanel({ catId, image, imageAlt, className = "h-48", iconSize = 34 
         <img
           src={image}
           alt={imageAlt || meta.label}
-          className="w-full h-full object-contain"
+          className={`w-full h-full ${fitClass}`}
           loading="lazy"
           onError={(e) => {
             e.currentTarget.style.display = "none";
@@ -65,7 +66,7 @@ function PhotoPanel({ catId, image, imageAlt, className = "h-48", iconSize = 34 
 function TagCard({ item, qty, onAdd, onRemove }) {
   return (
     <div className="border border-[color:var(--ink)] bg-[color:var(--paper)] rounded-lg overflow-hidden flex flex-col">
-      <PhotoPanel catId={item.cat} image={item.image} imageAlt={item.name} className="aspect-square" />
+      <PhotoPanel catId={item.cat} image={item.image} imageAlt={item.name} className="aspect-square" fit="contain" />
       <div className="px-4 pt-3 pb-4 flex flex-col gap-2">
         <div className="flex items-start justify-between">
           <span className="font-mono text-[10px] tracking-wider text-[color:var(--mauve)] opacity-70">{item.id}</span>
@@ -219,7 +220,7 @@ export default function App() {
 
       {/* Full-bleed header image / hero */}
       <section className="relative w-full h-[440px] sm:h-[560px] overflow-hidden border-b border-[color:var(--ink)]">
-        <PhotoPanel catId="furniture" image="/images/hero-dining-room.jpg" imageAlt="Styled dining room with East Bay Prop Co. furniture" className="h-full" iconSize={72} />
+        <PhotoPanel catId="furniture" image="/images/hero-dining-room.jpg" imageAlt="Styled dining room with East Bay Prop Co. furniture" className="h-full" iconSize={72} fit="cover" />
         <div
           className="absolute inset-0"
           style={{ background: "linear-gradient(0deg, rgba(46,36,31,0.82) 0%, rgba(46,36,31,0.35) 45%, rgba(46,36,31,0.05) 75%)" }}
@@ -295,7 +296,7 @@ export default function App() {
         <div className="grid sm:grid-cols-3 gap-5">
           {GALLERY.map((g) => (
             <div key={g.label} className="relative rounded-lg overflow-hidden border border-[color:var(--ink)]">
-              <PhotoPanel catId={g.cat} className="aspect-square" iconSize={40} />
+              <PhotoPanel catId={g.cat} className="aspect-square" iconSize={40} fit="contain" />
               <div
                 className="absolute inset-x-0 bottom-0 px-4 py-3"
                 style={{ background: "linear-gradient(to top, rgba(46,36,31,0.85), rgba(46,36,31,0))" }}
