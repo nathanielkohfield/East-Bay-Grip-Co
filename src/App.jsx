@@ -17,8 +17,8 @@ const CATEGORIES = [
 
 const GALLERY = [
   { cat: "furniture", label: "The Living Room Edit", note: "Sofas, credenzas & seating" },
-  { cat: "greenery", label: "Styled Greenery", note: "Fig trees, hedges & botanicals" },
-  { cat: "signage", label: "Signage & Neon", note: "Marquee letters & neon" },
+  { cat: "rugs", label: "Rugs & Textiles", note: "Layered rugs and soft goods" },
+  { cat: "small-props", label: "Small Props", note: "Tabletop styling & finishing touches" },
 ];
 
 const TONES = {
