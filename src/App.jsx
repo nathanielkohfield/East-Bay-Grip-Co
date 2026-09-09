@@ -3,6 +3,7 @@ import {
   Armchair, Lightbulb, Leaf, Zap, Radio, Square, Truck, MapPin, Clock,
   Plus, Minus, X, ClipboardList, Phone, Mail, ChevronRight, Check
 } from "lucide-react";
+import ITEMS from "./items.json";
 
 const CATEGORIES = [
   { id: "furniture", label: "Furniture", icon: Armchair, tone: "plum" },
@@ -11,25 +12,6 @@ const CATEGORIES = [
   { id: "greenery", label: "Greenery", icon: Leaf, tone: "sage" },
   { id: "signage", label: "Signage & Neon", icon: Zap, tone: "kraft" },
   { id: "tech", label: "Tech & Electronics", icon: Radio, tone: "mauve" },
-];
-
-const ITEMS = [
-  { id: "EB-0114", name: "Mid-Century Credenza, Walnut", cat: "furniture", dims: "60\"W x 18\"D x 30\"H", rate: 45 },
-  { id: "EB-0122", name: "Bentwood Cafe Chairs, Set of 2", cat: "furniture", dims: "18\"W x 20\"D x 32\"H", rate: 20 },
-  { id: "EB-0139", name: "Chesterfield Sofa, Oxblood", cat: "furniture", dims: "84\"W x 34\"D x 30\"H", rate: 95 },
-  { id: "EB-0147", name: "Drafting Table, Steel Base", cat: "furniture", dims: "42\"W x 30\"D x 38\"H", rate: 35 },
-  { id: "EB-0201", name: "Arc Floor Lamp, Brass", cat: "lighting", dims: "55\"H", rate: 25 },
-  { id: "EB-0212", name: "Edison Bulb String, 25ft", cat: "lighting", dims: "25 ft run", rate: 15 },
-  { id: "EB-0219", name: "Industrial Cage Pendant", cat: "lighting", dims: "14\" dia", rate: 20 },
-  { id: "EB-0305", name: "Vintage Steamer Trunk", cat: "decor", dims: "32\"W x 18\"D x 14\"H", rate: 18 },
-  { id: "EB-0318", name: "Brass Telescope on Stand", cat: "decor", dims: "24\"H", rate: 22 },
-  { id: "EB-0327", name: "Apothecary Bottle Set of 12", cat: "decor", dims: "2\u20136\" ea", rate: 28 },
-  { id: "EB-0402", name: "Fiddle Leaf Fig, 6ft", cat: "greenery", dims: "6 ft H", rate: 30 },
-  { id: "EB-0410", name: "Boxwood Hedge Panel", cat: "greenery", dims: "48\"W x 48\"H", rate: 25 },
-  { id: "EB-0501", name: "\u201cOPEN\u201d Neon Sign", cat: "signage", dims: "20\"W x 10\"H", rate: 40 },
-  { id: "EB-0509", name: "Marquee Letter Light, Per Letter", cat: "signage", dims: "24\" H", rate: 12 },
-  { id: "EB-0604", name: "Rotary Phone, Bakelite", cat: "tech", dims: "9\"W x 5\"D x 6\"H", rate: 10 },
-  { id: "EB-0611", name: "Reel-to-Reel Tape Deck", cat: "tech", dims: "18\"W x 14\"D x 8\"H", rate: 32 },
 ];
 
 const GALLERY = [
