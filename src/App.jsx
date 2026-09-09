@@ -1,6 +1,6 @@
 import { useState, useMemo } from "react";
 import {
-  Armchair, Lightbulb, Leaf, Zap, Radio, Square, Truck, MapPin, Clock,
+  Armchair, Lightbulb, Truck, MapPin, Clock,
   Plus, Minus, X, ClipboardList, Phone, Mail, ChevronRight, Check,
   Frame, Layers, Package, LayoutGrid
 } from "lucide-react";
@@ -9,10 +9,6 @@ import ITEMS from "./items.json";
 const CATEGORIES = [
   { id: "furniture", label: "Furniture", icon: Armchair, tone: "plum" },
   { id: "lighting", label: "Lighting", icon: Lightbulb, tone: "kraft" },
-  { id: "decor", label: "Decor & Styling", icon: Square, tone: "mauve" },
-  { id: "greenery", label: "Greenery", icon: Leaf, tone: "sage" },
-  { id: "signage", label: "Signage & Neon", icon: Zap, tone: "kraft" },
-  { id: "tech", label: "Tech & Electronics", icon: Radio, tone: "mauve" },
   { id: "art", label: "Art", icon: Frame, tone: "plum" },
   { id: "pillows", label: "Pillows & Textiles", icon: Layers, tone: "sage" },
   { id: "small-props", label: "Small Props", icon: Package, tone: "kraft" },
@@ -269,6 +265,28 @@ export default function App() {
         </div>
       </section>
 
+      {/* How it works */}
+      <section id="how-it-works" className="border-b border-[color:var(--ink)]" style={{ background: "var(--kraft)" }}>
+        <div className="max-w-6xl mx-auto px-4 sm:px-8 py-14">
+          <h2 className="font-display text-2xl sm:text-3xl tracking-tight mb-10" style={{ fontWeight: 600 }}>
+            How Renting Works
+          </h2>
+          <div className="grid sm:grid-cols-3 gap-8">
+            {[
+              { n: "01", title: "Build your pull sheet", body: "Browse the inventory and add what you need. Adjust quantities anytime before you send it." },
+              { n: "02", title: "Send it for a quote", body: "Set your rental dates and pickup or delivery. We confirm availability and final pricing same day." },
+              { n: "03", title: "Pick up or we deliver", body: "Will-call at the Oakland warehouse, or we load, deliver, and pick back up after wrap." },
+            ].map((s) => (
+              <div key={s.n}>
+                <span className="font-mono text-[13px] text-[color:var(--plum)] font-semibold">{s.n}</span>
+                <h3 className="text-[17px] font-semibold mt-2 mb-2">{s.title}</h3>
+                <p className="text-sm opacity-80 leading-relaxed">{s.body}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Editorial gallery — more images, minimal text */}
       <section className="max-w-6xl mx-auto px-4 sm:px-8 py-14">
         <h2 className="font-display text-2xl sm:text-3xl tracking-tight mb-6" style={{ fontWeight: 600 }}>
@@ -328,28 +346,6 @@ export default function App() {
           {filtered.map((item) => (
             <TagCard key={item.id} item={item} qty={cart[item.id] || 0} onAdd={add} onRemove={remove} />
           ))}
-        </div>
-      </section>
-
-      {/* How it works */}
-      <section id="how-it-works" className="border-t border-[color:var(--ink)]" style={{ background: "var(--kraft)" }}>
-        <div className="max-w-6xl mx-auto px-4 sm:px-8 py-14">
-          <h2 className="font-display text-2xl sm:text-3xl tracking-tight mb-10" style={{ fontWeight: 600 }}>
-            How Renting Works
-          </h2>
-          <div className="grid sm:grid-cols-3 gap-8">
-            {[
-              { n: "01", title: "Build your pull sheet", body: "Browse the inventory and add what you need. Adjust quantities anytime before you send it." },
-              { n: "02", title: "Send it for a quote", body: "Set your rental dates and pickup or delivery. We confirm availability and final pricing same day." },
-              { n: "03", title: "Pick up or we deliver", body: "Will-call at the Oakland warehouse, or we load, deliver, and pick back up after wrap." },
-            ].map((s) => (
-              <div key={s.n}>
-                <span className="font-mono text-[13px] text-[color:var(--plum)] font-semibold">{s.n}</span>
-                <h3 className="text-[17px] font-semibold mt-2 mb-2">{s.title}</h3>
-                <p className="text-sm opacity-80 leading-relaxed">{s.body}</p>
-              </div>
-            ))}
-          </div>
         </div>
       </section>
 
