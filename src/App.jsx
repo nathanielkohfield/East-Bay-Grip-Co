@@ -1,7 +1,8 @@
 import { useState, useMemo } from "react";
 import {
   Armchair, Lightbulb, Leaf, Zap, Radio, Square, Truck, MapPin, Clock,
-  Plus, Minus, X, ClipboardList, Phone, Mail, ChevronRight, Check
+  Plus, Minus, X, ClipboardList, Phone, Mail, ChevronRight, Check,
+  Frame, Layers, Package, LayoutGrid
 } from "lucide-react";
 import ITEMS from "./items.json";
 
@@ -12,6 +13,10 @@ const CATEGORIES = [
   { id: "greenery", label: "Greenery", icon: Leaf, tone: "sage" },
   { id: "signage", label: "Signage & Neon", icon: Zap, tone: "kraft" },
   { id: "tech", label: "Tech & Electronics", icon: Radio, tone: "mauve" },
+  { id: "art", label: "Art", icon: Frame, tone: "plum" },
+  { id: "pillows", label: "Pillows & Textiles", icon: Layers, tone: "sage" },
+  { id: "small-props", label: "Small Props", icon: Package, tone: "kraft" },
+  { id: "rugs", label: "Rugs", icon: LayoutGrid, tone: "mauve" },
 ];
 
 const GALLERY = [
@@ -31,9 +36,26 @@ function catMeta(catId) {
   return CATEGORIES.find((c) => c.id === catId);
 }
 
-function PhotoPanel({ catId, className = "h-48", iconSize = 34 }) {
+function PhotoPanel({ catId, image, imageAlt, className = "h-48", iconSize = 34 }) {
   const meta = catMeta(catId);
   const Icon = meta.icon;
+
+  if (image) {
+    return (
+      <div className={`relative w-full ${className} overflow-hidden`} style={{ background: TONES[meta.tone] }}>
+        <img
+          src={image}
+          alt={imageAlt || meta.label}
+          className="w-full h-full object-cover"
+          loading="lazy"
+          onError={(e) => {
+            e.currentTarget.style.display = "none";
+          }}
+        />
+      </div>
+    );
+  }
+
   return (
     <div
       className={`relative w-full ${className} overflow-hidden flex items-center justify-center`}
@@ -47,7 +69,7 @@ function PhotoPanel({ catId, className = "h-48", iconSize = 34 }) {
 function TagCard({ item, qty, onAdd, onRemove }) {
   return (
     <div className="border border-[color:var(--ink)] bg-[color:var(--paper)] rounded-lg overflow-hidden flex flex-col">
-      <PhotoPanel catId={item.cat} className="h-48" />
+      <PhotoPanel catId={item.cat} image={item.image} imageAlt={item.name} className="h-48" />
       <div className="px-4 pt-3 pb-4 flex flex-col gap-2">
         <div className="flex items-start justify-between">
           <span className="font-mono text-[10px] tracking-wider text-[color:var(--mauve)] opacity-70">{item.id}</span>
