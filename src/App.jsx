@@ -42,7 +42,7 @@ function PhotoPanel({ catId, image, imageAlt, className = "h-48", iconSize = 34 
         <img
           src={image}
           alt={imageAlt || meta.label}
-          className="w-full h-full object-cover"
+          className="w-full h-full object-contain"
           loading="lazy"
           onError={(e) => {
             e.currentTarget.style.display = "none";
@@ -65,7 +65,7 @@ function PhotoPanel({ catId, image, imageAlt, className = "h-48", iconSize = 34 
 function TagCard({ item, qty, onAdd, onRemove }) {
   return (
     <div className="border border-[color:var(--ink)] bg-[color:var(--paper)] rounded-lg overflow-hidden flex flex-col">
-      <PhotoPanel catId={item.cat} image={item.image} imageAlt={item.name} className="h-48" />
+      <PhotoPanel catId={item.cat} image={item.image} imageAlt={item.name} className="aspect-square" />
       <div className="px-4 pt-3 pb-4 flex flex-col gap-2">
         <div className="flex items-start justify-between">
           <span className="font-mono text-[10px] tracking-wider text-[color:var(--mauve)] opacity-70">{item.id}</span>
@@ -295,7 +295,7 @@ export default function App() {
         <div className="grid sm:grid-cols-3 gap-5">
           {GALLERY.map((g) => (
             <div key={g.label} className="relative rounded-lg overflow-hidden border border-[color:var(--ink)]">
-              <PhotoPanel catId={g.cat} className="h-64" iconSize={40} />
+              <PhotoPanel catId={g.cat} className="aspect-square" iconSize={40} />
               <div
                 className="absolute inset-x-0 bottom-0 px-4 py-3"
                 style={{ background: "linear-gradient(to top, rgba(46,36,31,0.85), rgba(46,36,31,0))" }}
