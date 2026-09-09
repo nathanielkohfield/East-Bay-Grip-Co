@@ -1,6 +1,6 @@
 import { useState, useMemo } from "react";
 import {
-  Armchair, Lightbulb, Truck, MapPin, Clock,
+  Armchair, Lightbulb, Truck, MapPin, Clock, Search,
   Plus, Minus, X, ClipboardList, Phone, Mail, ChevronRight, Check,
   Frame, Layers, Package, LayoutGrid
 } from "lucide-react";
@@ -111,16 +111,21 @@ function TagCard({ item, qty, onAdd, onRemove }) {
 
 export default function App() {
   const [activeCat, setActiveCat] = useState("all");
+  const [searchQuery, setSearchQuery] = useState("");
   const [cart, setCart] = useState({});
   const [rentalDays, setRentalDays] = useState(3);
   const [fulfillment, setFulfillment] = useState("pickup");
   const [drawerOpen, setDrawerOpen] = useState(false);
   const [submitted, setSubmitted] = useState(false);
 
-  const filtered = useMemo(
-    () => (activeCat === "all" ? ITEMS : ITEMS.filter((i) => i.cat === activeCat)),
-    [activeCat]
-  );
+  const filtered = useMemo(() => {
+    let result = activeCat === "all" ? ITEMS : ITEMS.filter((i) => i.cat === activeCat);
+    const q = searchQuery.trim().toLowerCase();
+    if (q) {
+      result = result.filter((i) => i.name.toLowerCase().includes(q));
+    }
+    return result;
+  }, [activeCat, searchQuery]);
 
   const cartCount = Object.values(cart).reduce((a, b) => a + b, 0);
 
@@ -291,6 +296,26 @@ export default function App() {
           <span className="font-mono text-[11px] opacity-50">{filtered.length} ITEMS SHOWN</span>
         </div>
 
+        <div className="relative mb-4">
+          <Search size={16} className="absolute left-4 top-1/2 -translate-y-1/2 opacity-50" />
+          <input
+            type="text"
+            value={searchQuery}
+            onChange={(e) => setSearchQuery(e.target.value)}
+            placeholder="Search inventory, e.g. \"books\" or \"lamp\""
+            className="w-full font-mono text-[13px] pl-11 pr-10 py-3 rounded-full border border-[color:var(--ink)] bg-[color:var(--paper)] placeholder:opacity-50"
+          />
+          {searchQuery && (
+            <button
+              onClick={() => setSearchQuery("")}
+              className="absolute right-4 top-1/2 -translate-y-1/2 opacity-50 hover:opacity-100"
+              aria-label="Clear search"
+            >
+              <X size={16} />
+            </button>
+          )}
+        </div>
+
         <div className="flex gap-2 overflow-x-auto pb-4 mb-6 -mx-1 px-1">
           <button
             onClick={() => setActiveCat("all")}
@@ -312,11 +337,17 @@ export default function App() {
           ))}
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {filtered.map((item) => (
-            <TagCard key={item.id} item={item} qty={cart[item.id] || 0} onAdd={add} onRemove={remove} />
-          ))}
-        </div>
+        {filtered.length === 0 ? (
+          <p className="font-mono text-[13px] opacity-50 py-12 text-center">
+            No items match "{searchQuery}". Try a different search or category.
+          </p>
+        ) : (
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {filtered.map((item) => (
+              <TagCard key={item.id} item={item} qty={cart[item.id] || 0} onAdd={add} onRemove={remove} />
+            ))}
+          </div>
+        )}
       </section>
 
       {/* Delivery */}
