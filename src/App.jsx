@@ -302,7 +302,7 @@ export default function App() {
             type="text"
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
-            placeholder="Search inventory, e.g. \"books\" or \"lamp\""
+            placeholder="Search inventory, e.g. 'books' or 'lamp'"
             className="w-full font-mono text-[13px] pl-11 pr-10 py-3 rounded-full border border-[color:var(--ink)] bg-[color:var(--paper)] placeholder:opacity-50"
           />
           {searchQuery && (
