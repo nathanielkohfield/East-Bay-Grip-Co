@@ -1,776 +1,5 @@
 [
   {
-    "id": "EB-0114",
-    "name": "Mid-Century Credenza, Walnut",
-    "cat": "furniture",
-    "dims": "60\"W x 18\"D x 30\"H",
-    "rate": 45
-  },
-  {
-    "id": "EB-0122",
-    "name": "Bentwood Cafe Chairs, Set of 2",
-    "cat": "furniture",
-    "dims": "18\"W x 20\"D x 32\"H",
-    "rate": 20
-  },
-  {
-    "id": "EB-0139",
-    "name": "Chesterfield Sofa, Oxblood",
-    "cat": "furniture",
-    "dims": "84\"W x 34\"D x 30\"H",
-    "rate": 95
-  },
-  {
-    "id": "EB-0147",
-    "name": "Drafting Table, Steel Base",
-    "cat": "furniture",
-    "dims": "42\"W x 30\"D x 38\"H",
-    "rate": 35
-  },
-  {
-    "id": "EB-0305",
-    "name": "Vintage Steamer Trunk",
-    "cat": "decor",
-    "dims": "32\"W x 18\"D x 14\"H",
-    "rate": 18
-  },
-  {
-    "id": "EB-0318",
-    "name": "Brass Telescope on Stand",
-    "cat": "decor",
-    "dims": "24\"H",
-    "rate": 22
-  },
-  {
-    "id": "EB-0327",
-    "name": "Apothecary Bottle Set of 12",
-    "cat": "decor",
-    "dims": "2–6\" ea",
-    "rate": 28
-  },
-  {
-    "id": "EB-0402",
-    "name": "Fiddle Leaf Fig, 6ft",
-    "cat": "greenery",
-    "dims": "6 ft H",
-    "rate": 30
-  },
-  {
-    "id": "EB-0410",
-    "name": "Boxwood Hedge Panel",
-    "cat": "greenery",
-    "dims": "48\"W x 48\"H",
-    "rate": 25
-  },
-  {
-    "id": "EB-0501",
-    "name": "“OPEN” Neon Sign",
-    "cat": "signage",
-    "dims": "20\"W x 10\"H",
-    "rate": 40
-  },
-  {
-    "id": "EB-0509",
-    "name": "Marquee Letter Light, Per Letter",
-    "cat": "signage",
-    "dims": "24\" H",
-    "rate": 12
-  },
-  {
-    "id": "EB-0604",
-    "name": "Rotary Phone, Bakelite",
-    "cat": "tech",
-    "dims": "9\"W x 5\"D x 6\"H",
-    "rate": 10
-  },
-  {
-    "id": "EB-0611",
-    "name": "Reel-to-Reel Tape Deck",
-    "cat": "tech",
-    "dims": "18\"W x 14\"D x 8\"H",
-    "rate": 32
-  },
-  {
-    "id": "SIG5PT0580",
-    "name": "(Creative Co-Op) 9.25 in. Black and Natural Stoneware Portable Table Lamp with Natural Color Linen Shade",
-    "cat": "lighting",
-    "dims": "Dimensions TBD",
-    "rate": 0
-  },
-  {
-    "id": "SIG5PT0591",
-    "name": "(Elegant Lighting) Eclipse One-Light Pendant",
-    "cat": "lighting",
-    "dims": "Dimensions TBD",
-    "rate": 0
-  },
-  {
-    "id": "SIG5PT1420",
-    "name": "Verve Accent Table Lamp",
-    "cat": "lighting",
-    "dims": "Dimensions TBD",
-    "rate": 0
-  },
-  {
-    "id": "SIG5PT0593",
-    "name": "(Generation Lighting) Orley 5-Light Chandelier in Midnight Black",
-    "cat": "lighting",
-    "dims": "Dimensions TBD",
-    "rate": 0
-  },
-  {
-    "id": "SIG5PT0589",
-    "name": "(Safavieh) Fauna 8-Light Chandelier",
-    "cat": "lighting",
-    "dims": "Dimensions TBD",
-    "rate": 0
-  },
-  {
-    "id": "SIG5PT0590",
-    "name": "(Safavieh) Rylian 12-Light Chandelier (Black + Clear)",
-    "cat": "lighting",
-    "dims": "Dimensions TBD",
-    "rate": 0
-  },
-  {
-    "id": "SIG5PT0604",
-    "name": "(Ashley's) Danset Floor Lamp",
-    "cat": "lighting",
-    "dims": "Dimensions TBD",
-    "rate": 0
-  },
-  {
-    "id": "SIG5PT0574",
-    "name": "(Ashley's) Tobbinsen Floor Lamp",
-    "cat": "lighting",
-    "dims": "Width: 15.75\" Height: 61.38\" Depth: 15.75\"",
-    "rate": 0
-  },
-  {
-    "id": "SIG5PT0603",
-    "name": "(Ashley's) Wendfield Floor Lamp",
-    "cat": "lighting",
-    "dims": "Dimensions TBD",
-    "rate": 0
-  },
-  {
-    "id": "SIG5PT0577",
-    "name": "Noah Mid Century Modern Walnut Wood Floor Lamp with Marble Base",
-    "cat": "lighting",
-    "dims": "Dimensions TBD",
-    "rate": 0
-  },
-  {
-    "id": "SIG5PT1647",
-    "name": "Safavieh Leif Floor Lamp",
-    "cat": "lighting",
-    "dims": "68\"H x 15\"W x 7.75\"D",
-    "rate": 0
-  },
-  {
-    "id": "SIG5PT0586",
-    "name": "(ELK Home) Rutherford 1 Light 15 inch Weathered Zinc with Polished Nickel Pendant Ceiling Light",
-    "cat": "lighting",
-    "dims": "Dimensions TBD",
-    "rate": 0
-  },
-  {
-    "id": "SIG5PT0585",
-    "name": "(ELK Lighting) Rutherford 15-inch 1-Light Pendant in Polished Nickel",
-    "cat": "lighting",
-    "dims": "Dimensions TBD",
-    "rate": 0
-  },
-  {
-    "id": "SIG5PT0587",
-    "name": "(Elegant Lighting) Clive 3 Light 35\" Wide Linear Pendant",
-    "cat": "lighting",
-    "dims": "Dimensions TBD",
-    "rate": 0
-  },
-  {
-    "id": "SIG5PT0592",
-    "name": "(Elegant Lighting) Hanson 1-Light Bath Sconce, Polished Nickel & Frosted Shade",
-    "cat": "lighting",
-    "dims": "Dimensions TBD",
-    "rate": 0
-  },
-  {
-    "id": "SIG5PT0588",
-    "name": "(Elegant Lighting) Nolan 6 Light Pendant",
-    "cat": "lighting",
-    "dims": "Dimensions TBD",
-    "rate": 0
-  },
-  {
-    "id": "SIG5PT0578",
-    "name": "(JONATHAN Y Lighting) Nathan 3 Light 39\" Wide LED Linear Pendant, Oil Rub",
-    "cat": "lighting",
-    "dims": "Dimensions TBD",
-    "rate": 0
-  },
-  {
-    "id": "SIG5PT0595",
-    "name": "(Karjearl) Large Black + Gold Dome Pendant Light",
-    "cat": "lighting",
-    "dims": "Dimensions TBD",
-    "rate": 0
-  },
-  {
-    "id": "SIG5PT0583",
-    "name": "(Uttermost®) Placuna Bronze 1-Light Pendant",
-    "cat": "lighting",
-    "dims": "Dimensions TBD",
-    "rate": 0
-  },
-  {
-    "id": "SIG5PT0573",
-    "name": "Avalbane Pendant Light",
-    "cat": "lighting",
-    "dims": "Dimensions TBD",
-    "rate": 0
-  },
-  {
-    "id": "SIG5PT1303",
-    "name": "(Ashley Luxe) Ceramic Vessel Table Lamp",
-    "cat": "lighting",
-    "dims": "Width 18\" Height 25.5\" Depth 18\"",
-    "rate": 0
-  },
-  {
-    "id": "SIG5PT1311",
-    "name": "(Ashley Luxe) Stone Teardrop Table Lamp",
-    "cat": "lighting",
-    "dims": "Width 18\" Height 34.5\" Depth 18\"",
-    "rate": 0
-  },
-  {
-    "id": "SIG5PT2333",
-    "name": "(Ashley's) Dingerly Glass Table Lamp (1/CN)",
-    "cat": "lighting",
-    "dims": "Width: 14.38\" Height: 28.38\" Depth: 14.38\"",
-    "rate": 0
-  },
-  {
-    "id": "SIG5PT0609",
-    "name": "(Ashley's) Dingerly Table Lamp",
-    "cat": "lighting",
-    "dims": "Dimensions TBD",
-    "rate": 0
-  },
-  {
-    "id": "SIG5PT0600",
-    "name": "(Ashley's) Gierburg Table Lamp",
-    "cat": "lighting",
-    "dims": "Width: 10.00\" Height: 17.00\" Depth: 10.00\"",
-    "rate": 0
-  },
-  {
-    "id": "SIG5PT2294",
-    "name": "(Ashley's) Gizeh Glass Table Lamp (1/CN)",
-    "cat": "lighting",
-    "dims": "Width: 18.25\" Height: 32.13\" Depth: 18.25\"",
-    "rate": 0
-  },
-  {
-    "id": "SIG5PT2313",
-    "name": "(Ashley's) Harif Paper Table Lamp (1/CN)",
-    "cat": "lighting",
-    "dims": "Width: 18.25\" Height: 26.63\" Depth: 10.00\"",
-    "rate": 0
-  },
-  {
-    "id": "SIG5PT0605",
-    "name": "(Ashley's) Layal Table Lamp",
-    "cat": "lighting",
-    "dims": "Dimensions TBD",
-    "rate": 0
-  },
-  {
-    "id": "SIG5PT0602",
-    "name": "(Ashley's) Marnina Table Lamp: Set of 2",
-    "cat": "lighting",
-    "dims": "Dimensions TBD",
-    "rate": 0
-  },
-  {
-    "id": "SIG5PT2305",
-    "name": "(Ashley's) Maykins Metal Table Lamp (1/CN)",
-    "cat": "lighting",
-    "dims": "Width: 16.13\" Height: 33.13\" Depth: 16.13\"",
-    "rate": 0
-  },
-  {
-    "id": "SIG5PT0601",
-    "name": "(Ashley's) Perringhill Table Lamp",
-    "cat": "lighting",
-    "dims": "Width: 16.25\" Height: 30.88\" Depth: 16.25\"",
-    "rate": 0
-  },
-  {
-    "id": "SIG5PT0606",
-    "name": "(Ashley's) Scantor Table Lamp",
-    "cat": "lighting",
-    "dims": "Width: 17.13\" Height: 25.38\" Depth: 17.13\"",
-    "rate": 0
-  },
-  {
-    "id": "SIG5PT0581",
-    "name": "(Ashley's) Shavon Table Lamp",
-    "cat": "lighting",
-    "dims": "Dimensions TBD",
-    "rate": 0
-  },
-  {
-    "id": "SIG5PT2321",
-    "name": "(Ashley's) Zandophen Metal Table Lamp (1/CN)",
-    "cat": "lighting",
-    "dims": "Width: 18.13\" Height: 24.00\" Depth: 18.13\"",
-    "rate": 0
-  },
-  {
-    "id": "SIG5PT0576",
-    "name": "(Safavieh) Table Lamps 24-in Black LED Incandescent On/Off switch Table Lamp with Metal Shade",
-    "cat": "lighting",
-    "dims": "Dimensions TBD",
-    "rate": 0
-  },
-  {
-    "id": "SIG5PT0612",
-    "name": "20 .75 in. Black Stoneware Table Lamp with Linen Drum Shade",
-    "cat": "lighting",
-    "dims": "Dimensions TBD",
-    "rate": 0
-  },
-  {
-    "id": "SIG5PT1306",
-    "name": "Ceramic Assembled Table Lamp White",
-    "cat": "lighting",
-    "dims": "24\"x16\"",
-    "rate": 0
-  },
-  {
-    "id": "SIG5PT1327",
-    "name": "Ixora 17.75 Inch Table Lamp",
-    "cat": "lighting",
-    "dims": "9.875\" x 9.875\" x 17.75\"",
-    "rate": 0
-  },
-  {
-    "id": "SIG5PT0575",
-    "name": "Naareman Table Lamp",
-    "cat": "lighting",
-    "dims": "Dimensions TBD",
-    "rate": 0
-  },
-  {
-    "id": "SIG5PT1309",
-    "name": "Round Stoneware Desk Lamp",
-    "cat": "lighting",
-    "dims": "20.75\" H x 13\" L x 13\" W",
-    "rate": 0
-  },
-  {
-    "id": "SIG5PT1652",
-    "name": "Terra Cotta Pillar Table Lamps",
-    "cat": "lighting",
-    "dims": "Height 20 Inches Diameter 11 Inches",
-    "rate": 0
-  }
-]
-[
-  {
-    "id": "EB-0305",
-    "name": "Vintage Steamer Trunk",
-    "cat": "decor",
-    "dims": "32\"W x 18\"D x 14\"H",
-    "rate": 18
-  },
-  {
-    "id": "EB-0318",
-    "name": "Brass Telescope on Stand",
-    "cat": "decor",
-    "dims": "24\"H",
-    "rate": 22
-  },
-  {
-    "id": "EB-0327",
-    "name": "Apothecary Bottle Set of 12",
-    "cat": "decor",
-    "dims": "2–6\" ea",
-    "rate": 28
-  },
-  {
-    "id": "EB-0402",
-    "name": "Fiddle Leaf Fig, 6ft",
-    "cat": "greenery",
-    "dims": "6 ft H",
-    "rate": 30
-  },
-  {
-    "id": "EB-0410",
-    "name": "Boxwood Hedge Panel",
-    "cat": "greenery",
-    "dims": "48\"W x 48\"H",
-    "rate": 25
-  },
-  {
-    "id": "EB-0501",
-    "name": "“OPEN” Neon Sign",
-    "cat": "signage",
-    "dims": "20\"W x 10\"H",
-    "rate": 40
-  },
-  {
-    "id": "EB-0509",
-    "name": "Marquee Letter Light, Per Letter",
-    "cat": "signage",
-    "dims": "24\" H",
-    "rate": 12
-  },
-  {
-    "id": "EB-0604",
-    "name": "Rotary Phone, Bakelite",
-    "cat": "tech",
-    "dims": "9\"W x 5\"D x 6\"H",
-    "rate": 10
-  },
-  {
-    "id": "EB-0611",
-    "name": "Reel-to-Reel Tape Deck",
-    "cat": "tech",
-    "dims": "18\"W x 14\"D x 8\"H",
-    "rate": 32
-  },
-  {
-    "id": "SIG5PT0580",
-    "name": "(Creative Co-Op) 9.25 in. Black and Natural Stoneware Portable Table Lamp with Natural Color Linen Shade",
-    "cat": "lighting",
-    "dims": "Dimensions TBD",
-    "rate": 0,
-    "image": "https://lnk.sortly.co/v2/downloads/photo/v2_ubtEDeuFjncPdg61hhrybe5s-Ofn9XFS7NQZtdW7fZU2kQxkfwIuPw=="
-  },
-  {
-    "id": "SIG5PT0591",
-    "name": "(Elegant Lighting) Eclipse One-Light Pendant",
-    "cat": "lighting",
-    "dims": "Dimensions TBD",
-    "rate": 0,
-    "image": "https://lnk.sortly.co/v2/downloads/photo/v2_0Qpg9lSkvuHS3HQo_RJOqnuPrIpZmxpARgZnf28XHrKNHDmGLldeCw=="
-  },
-  {
-    "id": "SIG5PT1420",
-    "name": "Verve Accent Table Lamp",
-    "cat": "lighting",
-    "dims": "Dimensions TBD",
-    "rate": 0,
-    "image": "https://lnk.sortly.co/v2/downloads/photo/v2_Zs-eTB8Qt28_qYzcFwPLTIRzmxX0hlCEYqgsDWJHdBmNN60GgOZGpQ=="
-  },
-  {
-    "id": "SIG5PT0593",
-    "name": "(Generation Lighting) Orley 5-Light Chandelier in Midnight Black",
-    "cat": "lighting",
-    "dims": "Dimensions TBD",
-    "rate": 0,
-    "image": "https://lnk.sortly.co/v2/downloads/photo/v2_cgoO-WBYHolwPg3YWTNA6Ndlc8unowHnhOaPV1YoOk4rga8g6ZRzIw=="
-  },
-  {
-    "id": "SIG5PT0589",
-    "name": "(Safavieh) Fauna 8-Light Chandelier",
-    "cat": "lighting",
-    "dims": "Dimensions TBD",
-    "rate": 0,
-    "image": "https://lnk.sortly.co/v2/downloads/photo/v2_lAOomSzc9az2QnmKB1s_8DP4KfQh00RiYGV0B3u4rL-N5tjmkTVJgw=="
-  },
-  {
-    "id": "SIG5PT0590",
-    "name": "(Safavieh) Rylian 12-Light Chandelier (Black + Clear)",
-    "cat": "lighting",
-    "dims": "Dimensions TBD",
-    "rate": 0,
-    "image": "https://lnk.sortly.co/v2/downloads/photo/v2_-B8iu3jteQD0Frfsf7NtwSmmmoDTMvoKglDm69kQ3ijpGSENcckp6A=="
-  },
-  {
-    "id": "SIG5PT0604",
-    "name": "(Ashley's) Danset Floor Lamp",
-    "cat": "lighting",
-    "dims": "Dimensions TBD",
-    "rate": 0,
-    "image": "https://lnk.sortly.co/v2/downloads/photo/v2__FoqQdVCY1FaGgy-IrGydNwt4gwCaOUKXxhbb-nZFTKRx5YhfoGYJA=="
-  },
-  {
-    "id": "SIG5PT0574",
-    "name": "(Ashley's) Tobbinsen Floor Lamp",
-    "cat": "lighting",
-    "dims": "Width: 15.75\" Height: 61.38\" Depth: 15.75\"",
-    "rate": 0,
-    "image": "https://lnk.sortly.co/v2/downloads/photo/v2_euoMK4WUHeXGxXj0WFZhSNJ60KP4kD_bXrd87JlXTTDzYYQuVcnUZA=="
-  },
-  {
-    "id": "SIG5PT0603",
-    "name": "(Ashley's) Wendfield Floor Lamp",
-    "cat": "lighting",
-    "dims": "Dimensions TBD",
-    "rate": 0,
-    "image": "https://lnk.sortly.co/v2/downloads/photo/v2_xSuu50Av6tba7fd6BEqJK5xMqCLMU4buD7m-lLGCTMTElxKLGeAYmg=="
-  },
-  {
-    "id": "SIG5PT0577",
-    "name": "Noah Mid Century Modern Walnut Wood Floor Lamp with Marble Base",
-    "cat": "lighting",
-    "dims": "Dimensions TBD",
-    "rate": 0,
-    "image": "https://lnk.sortly.co/v2/downloads/photo/v2_O5RZH0Ds_TpbWpIqvt_Obh-rxH7a6_9e1cfCnv8iV_BXSarz16cC8w=="
-  },
-  {
-    "id": "SIG5PT1647",
-    "name": "Safavieh Leif Floor Lamp",
-    "cat": "lighting",
-    "dims": "68\"H x 15\"W x 7.75\"D",
-    "rate": 0,
-    "image": "https://lnk.sortly.co/v2/downloads/photo/v2_Pn67EAOoyQ9Dxhd-QgrXXSKeaH6vxUAjqQCnre-5oct2fD64ggYnxw=="
-  },
-  {
-    "id": "SIG5PT0586",
-    "name": "(ELK Home) Rutherford 1 Light 15 inch Weathered Zinc with Polished Nickel Pendant Ceiling Light",
-    "cat": "lighting",
-    "dims": "Dimensions TBD",
-    "rate": 0,
-    "image": "https://lnk.sortly.co/v2/downloads/photo/v2_kOhcN1vAbp0S5BuWmnbif03tUYXW4GNLzMlyF33Rouf2NrEUIJHQzg=="
-  },
-  {
-    "id": "SIG5PT0585",
-    "name": "(ELK Lighting) Rutherford 15-inch 1-Light Pendant in Polished Nickel",
-    "cat": "lighting",
-    "dims": "Dimensions TBD",
-    "rate": 0,
-    "image": "https://lnk.sortly.co/v2/downloads/photo/v2_VPn8yUL-H1lA-hv0F3Ht9cpwrqVvfLEEZk1_qfCTEBxYVU-pA-vgcA=="
-  },
-  {
-    "id": "SIG5PT0587",
-    "name": "(Elegant Lighting) Clive 3 Light 35\" Wide Linear Pendant",
-    "cat": "lighting",
-    "dims": "Dimensions TBD",
-    "rate": 0,
-    "image": "https://lnk.sortly.co/v2/downloads/photo/v2_l-tg1knZc65pnRLWiWMmcSln2uDVQY4NJLHmdW8LniXotfhXE-16Vw=="
-  },
-  {
-    "id": "SIG5PT0592",
-    "name": "(Elegant Lighting) Hanson 1-Light Bath Sconce, Polished Nickel & Frosted Shade",
-    "cat": "lighting",
-    "dims": "Dimensions TBD",
-    "rate": 0,
-    "image": "https://lnk.sortly.co/v2/downloads/photo/v2_v0uu5DGag6HhnWqdjL6NrpexUiywA1ASlfrTC42u9G3wPyRNIHFHdg=="
-  },
-  {
-    "id": "SIG5PT0588",
-    "name": "(Elegant Lighting) Nolan 6 Light Pendant",
-    "cat": "lighting",
-    "dims": "Dimensions TBD",
-    "rate": 0,
-    "image": "https://lnk.sortly.co/v2/downloads/photo/v2_DyzFu24SNgBqIGRQ8iZ03h7XXjkR_hErTfPS3YHdiucwJsRlsQ53EA=="
-  },
-  {
-    "id": "SIG5PT0578",
-    "name": "(JONATHAN Y Lighting) Nathan 3 Light 39\" Wide LED Linear Pendant, Oil Rub",
-    "cat": "lighting",
-    "dims": "Dimensions TBD",
-    "rate": 0,
-    "image": "https://lnk.sortly.co/v2/downloads/photo/v2_SL7W2hr51xeX3oH7n6hw-fmz9CY5tLAfuV_Vy7lhJJWllsaKCVbK3g=="
-  },
-  {
-    "id": "SIG5PT0595",
-    "name": "(Karjearl) Large Black + Gold Dome Pendant Light",
-    "cat": "lighting",
-    "dims": "Dimensions TBD",
-    "rate": 0,
-    "image": "https://lnk.sortly.co/v2/downloads/photo/v2_hE-FlS0_uxfplxMZC48Fb7Irey7Yuw-ZghPvkt3aMi-U8ZtSB4YB3w=="
-  },
-  {
-    "id": "SIG5PT0583",
-    "name": "(Uttermost®) Placuna Bronze 1-Light Pendant",
-    "cat": "lighting",
-    "dims": "Dimensions TBD",
-    "rate": 0,
-    "image": "https://lnk.sortly.co/v2/downloads/photo/v2_vCwqtJZl41LBqKUwaw5hFRQC4Ip5nxNvu2-Z9HQ2SKxe7U6xFngEBQ=="
-  },
-  {
-    "id": "SIG5PT0573",
-    "name": "Avalbane Pendant Light",
-    "cat": "lighting",
-    "dims": "Dimensions TBD",
-    "rate": 0,
-    "image": "https://lnk.sortly.co/v2/downloads/photo/v2_FtoJblExYxhwPSp72DKhZ7EJbPcYMtWSZsnTok1whY0_ckK8X-i-cw=="
-  },
-  {
-    "id": "SIG5PT1303",
-    "name": "(Ashley Luxe) Ceramic Vessel Table Lamp",
-    "cat": "lighting",
-    "dims": "Width 18\" Height 25.5\" Depth 18\"",
-    "rate": 0,
-    "image": "https://lnk.sortly.co/v2/downloads/photo/v2_K43NMzzABcf6wqK40JDe-EZ43wRDPghXtnGqazjFScWBwLrv6eAeow=="
-  },
-  {
-    "id": "SIG5PT1311",
-    "name": "(Ashley Luxe) Stone Teardrop Table Lamp",
-    "cat": "lighting",
-    "dims": "Width 18\" Height 34.5\" Depth 18\"",
-    "rate": 0,
-    "image": "https://lnk.sortly.co/v2/downloads/photo/v2_nozNrrOZd9k0uJ0trsX0PxUXYjJd5w6ywB_AnAarboh8UbZkjM8fRg=="
-  },
-  {
-    "id": "SIG5PT2333",
-    "name": "(Ashley's) Dingerly Glass Table Lamp (1/CN)",
-    "cat": "lighting",
-    "dims": "Width: 14.38\" Height: 28.38\" Depth: 14.38\"",
-    "rate": 0,
-    "image": "https://lnk.sortly.co/v2/downloads/photo/v2_kPUvXfONVkSX7kuxnFCJElfbD8JxDFLmc9-M6wjPuyOq1G7TMmgRVg=="
-  },
-  {
-    "id": "SIG5PT0609",
-    "name": "(Ashley's) Dingerly Table Lamp",
-    "cat": "lighting",
-    "dims": "Dimensions TBD",
-    "rate": 0,
-    "image": "https://lnk.sortly.co/v2/downloads/photo/v2_Nvdajg0UpG7_sUv6Bq4aSQe55NQHtvg9W1_M0qPoaKZdnjEDktEyPA=="
-  },
-  {
-    "id": "SIG5PT0600",
-    "name": "(Ashley's) Gierburg Table Lamp",
-    "cat": "lighting",
-    "dims": "Width: 10.00\" Height: 17.00\" Depth: 10.00\"",
-    "rate": 0,
-    "image": "https://lnk.sortly.co/v2/downloads/photo/v2_Uusut7Ci76mNxUWjcYfGKYd7qVJuY1q7CSEoC8BQPGB7aoT-Ua5QFw=="
-  },
-  {
-    "id": "SIG5PT2294",
-    "name": "(Ashley's) Gizeh Glass Table Lamp (1/CN)",
-    "cat": "lighting",
-    "dims": "Width: 18.25\" Height: 32.13\" Depth: 18.25\"",
-    "rate": 0,
-    "image": "https://lnk.sortly.co/v2/downloads/photo/v2_PqWFDtd_Rj5OkUirdbEf7iLicY9unS_rfcquo3_gJLB9tt39m2BQ9Q=="
-  },
-  {
-    "id": "SIG5PT2313",
-    "name": "(Ashley's) Harif Paper Table Lamp (1/CN)",
-    "cat": "lighting",
-    "dims": "Width: 18.25\" Height: 26.63\" Depth: 10.00\"",
-    "rate": 0,
-    "image": "https://lnk.sortly.co/v2/downloads/photo/v2_8dzcy_-YL3yNP7OIEue-ZT8-40RAvZq9a4DRWeQb7-t4wG-1LzXvUA=="
-  },
-  {
-    "id": "SIG5PT0605",
-    "name": "(Ashley's) Layal Table Lamp",
-    "cat": "lighting",
-    "dims": "Dimensions TBD",
-    "rate": 0,
-    "image": "https://lnk.sortly.co/v2/downloads/photo/v2_YQ4cS00MmiciPUXHatgeWYVOyl9BMvmB9Ay5bh6m4uMejt22wMoOFw=="
-  },
-  {
-    "id": "SIG5PT0602",
-    "name": "(Ashley's) Marnina Table Lamp: Set of 2",
-    "cat": "lighting",
-    "dims": "Dimensions TBD",
-    "rate": 0,
-    "image": "https://lnk.sortly.co/v2/downloads/photo/v2_s-V1V7zafSTJupg0R2uIIuOSNL3IezWdNytSSiUJN8_FGsiXzmvSLQ=="
-  },
-  {
-    "id": "SIG5PT2305",
-    "name": "(Ashley's) Maykins Metal Table Lamp (1/CN)",
-    "cat": "lighting",
-    "dims": "Width: 16.13\" Height: 33.13\" Depth: 16.13\"",
-    "rate": 0,
-    "image": "https://lnk.sortly.co/v2/downloads/photo/v2_wKl32pCo-4ibnGfuTAM95-39uUlARNNYG01Fyy3kfQic8N5QuAFRbA=="
-  },
-  {
-    "id": "SIG5PT0601",
-    "name": "(Ashley's) Perringhill Table Lamp",
-    "cat": "lighting",
-    "dims": "Width: 16.25\" Height: 30.88\" Depth: 16.25\"",
-    "rate": 0,
-    "image": "https://lnk.sortly.co/v2/downloads/photo/v2_AKo53bkjst5zs3UuB7Py0TljYPG9zUkD8Qp91WVu4jYWshrmWPqzRA=="
-  },
-  {
-    "id": "SIG5PT0606",
-    "name": "(Ashley's) Scantor Table Lamp",
-    "cat": "lighting",
-    "dims": "Width: 17.13\" Height: 25.38\" Depth: 17.13\"",
-    "rate": 0,
-    "image": "https://lnk.sortly.co/v2/downloads/photo/v2_KSazxgg2IQCvV-96NJQWAGGFPKFyOTHMhPNScUp6KvLhIMVzNyaQXA=="
-  },
-  {
-    "id": "SIG5PT0581",
-    "name": "(Ashley's) Shavon Table Lamp",
-    "cat": "lighting",
-    "dims": "Dimensions TBD",
-    "rate": 0,
-    "image": "https://lnk.sortly.co/v2/downloads/photo/v2_lhNH98nYTawksxS5MTbP_ZcdL07H3Wk1ts67qUgDDhmUpkN_jkXROg=="
-  },
-  {
-    "id": "SIG5PT2321",
-    "name": "(Ashley's) Zandophen Metal Table Lamp (1/CN)",
-    "cat": "lighting",
-    "dims": "Width: 18.13\" Height: 24.00\" Depth: 18.13\"",
-    "rate": 0,
-    "image": "https://lnk.sortly.co/v2/downloads/photo/v2_lkIyesglMiGA8TmoJgvIrpXaR-rKPPe_XQ2Up0bCs5qW5k30fQ0m_Q=="
-  },
-  {
-    "id": "SIG5PT0576",
-    "name": "(Safavieh) Table Lamps 24-in Black LED Incandescent On/Off switch Table Lamp with Metal Shade",
-    "cat": "lighting",
-    "dims": "Dimensions TBD",
-    "rate": 0,
-    "image": "https://lnk.sortly.co/v2/downloads/photo/v2_jH7Zlt5xci-bSDg2GCOCh_35VqnsczhmNpzIVfQ61ZXae6O-vUykQQ=="
-  },
-  {
-    "id": "SIG5PT0612",
-    "name": "20 .75 in. Black Stoneware Table Lamp with Linen Drum Shade",
-    "cat": "lighting",
-    "dims": "Dimensions TBD",
-    "rate": 0,
-    "image": "https://lnk.sortly.co/v2/downloads/photo/v2_TTkVfZGjjrXE8tlddHUzqAKsPA5ZB-ffUgayt3f00OGESIjBRQvDZA=="
-  },
-  {
-    "id": "SIG5PT1306",
-    "name": "Ceramic Assembled Table Lamp White",
-    "cat": "lighting",
-    "dims": "24\"x16\"",
-    "rate": 0,
-    "image": "https://lnk.sortly.co/v2/downloads/photo/v2_4jfEqOh7lVEpiYzqGei8AlPAu1kDP6yb0mNsK_pIJF3vFf33a8Dvow=="
-  },
-  {
-    "id": "SIG5PT1327",
-    "name": "Ixora 17.75 Inch Table Lamp",
-    "cat": "lighting",
-    "dims": "9.875\" x 9.875\" x 17.75\"",
-    "rate": 0,
-    "image": "https://lnk.sortly.co/v2/downloads/photo/v2_JmmlxkadESQok2CTI3fXn9egbyVZlX8YpJP6By7hWValAa_8mXWmew=="
-  },
-  {
-    "id": "SIG5PT0575",
-    "name": "Naareman Table Lamp",
-    "cat": "lighting",
-    "dims": "Dimensions TBD",
-    "rate": 0,
-    "image": "https://lnk.sortly.co/v2/downloads/photo/v2_i4gTTaw7gPnbWR9tx9MqHRBKZnjnSTa317cp7dz3XNPf7x9eQyWxZg=="
-  },
-  {
-    "id": "SIG5PT1309",
-    "name": "Round Stoneware Desk Lamp",
-    "cat": "lighting",
-    "dims": "20.75\" H x 13\" L x 13\" W",
-    "rate": 0,
-    "image": "https://lnk.sortly.co/v2/downloads/photo/v2_F3uCdtxA2bCWF9dnAg7pRzTS_VtL6kvG-KdOiSQQ0wQYnTcC6oCE_w=="
-  },
-  {
-    "id": "SIG5PT1652",
-    "name": "Terra Cotta Pillar Table Lamps",
-    "cat": "lighting",
-    "dims": "Height 20 Inches Diameter 11 Inches",
-    "rate": 0,
-    "image": "https://lnk.sortly.co/v2/downloads/photo/v2_L8ZD6ovL7l4wrekzR9lArwLocQwR3sWtbBt3SbgrQz6lhE4d8uS0-w=="
-  },
-  {
     "id": "SIG5PT1434",
     "name": "Coates Pouf",
     "cat": "furniture",
@@ -4488,6 +3717,326 @@
     "dims": "Dimensions TBD",
     "rate": 0,
     "image": "https://lnk.sortly.co/v2/downloads/photo/v2_EWd0LuHlkT4lka5wPDshbW6IrF-A-cCBmjgC36zbb6utUehDe_Ksmg=="
+  },
+  {
+    "id": "SIG5PT0580",
+    "name": "(Creative Co-Op) 9.25 in. Black and Natural Stoneware Portable Table Lamp with Natural Color Linen Shade",
+    "cat": "lighting",
+    "dims": "Dimensions TBD",
+    "rate": 0,
+    "image": "https://lnk.sortly.co/v2/downloads/photo/v2_dzuyhi8blqR4oG-Jy-6zGeXPnfkb2uTdQxV6trIuWrBA6AE2bjMwWg=="
+  },
+  {
+    "id": "SIG5PT0591",
+    "name": "(Elegant Lighting) Eclipse One-Light Pendant",
+    "cat": "lighting",
+    "dims": "Dimensions TBD",
+    "rate": 0,
+    "image": "https://lnk.sortly.co/v2/downloads/photo/v2_M-aTfoGJc6O1u8pHJbiS0x0HUp_l1PAlvqj6A1sWVcNe-lLR7xOcYg=="
+  },
+  {
+    "id": "SIG5PT1420",
+    "name": "Verve Accent Table Lamp",
+    "cat": "lighting",
+    "dims": "Dimensions TBD",
+    "rate": 0,
+    "image": "https://lnk.sortly.co/v2/downloads/photo/v2_iZoPO3rnCh63vzHwIes60AIk_iRHiwm6GOB7w8mg0MNvxZHqcwmV-Q=="
+  },
+  {
+    "id": "SIG5PT0593",
+    "name": "(Generation Lighting) Orley 5-Light Chandelier in Midnight Black",
+    "cat": "lighting",
+    "dims": "Dimensions TBD",
+    "rate": 0,
+    "image": "https://lnk.sortly.co/v2/downloads/photo/v2_I5YSYpCwXvgO-djJVoJQAqdGG3VjwrfcBOWkijtENPPwktr7PJ3oTA=="
+  },
+  {
+    "id": "SIG5PT0589",
+    "name": "(Safavieh) Fauna 8-Light Chandelier",
+    "cat": "lighting",
+    "dims": "Dimensions TBD",
+    "rate": 0,
+    "image": "https://lnk.sortly.co/v2/downloads/photo/v2_6prVlg9Qoz8HzeSydHczbv0GCMr0qhT-TpZpB30LflmbhFNNqubd1Q=="
+  },
+  {
+    "id": "SIG5PT0590",
+    "name": "(Safavieh) Rylian 12-Light Chandelier (Black + Clear)",
+    "cat": "lighting",
+    "dims": "Dimensions TBD",
+    "rate": 0,
+    "image": "https://lnk.sortly.co/v2/downloads/photo/v2_zQ0XjKDu39kF2o8n4JtQ_TQOgCQ7CMplYWwk6DYHrK_dCVLWa8zwBA=="
+  },
+  {
+    "id": "SIG5PT0604",
+    "name": "(Ashley's) Danset Floor Lamp",
+    "cat": "lighting",
+    "dims": "Dimensions TBD",
+    "rate": 0,
+    "image": "https://lnk.sortly.co/v2/downloads/photo/v2_qV5dXSHSWvS-5-ObbI8VanKqMONXeKRweFSpBfKBOFRrh4D5ND976g=="
+  },
+  {
+    "id": "SIG5PT0574",
+    "name": "(Ashley's) Tobbinsen Floor Lamp",
+    "cat": "lighting",
+    "dims": "Width: 15.75\" Height: 61.38\" Depth: 15.75\"",
+    "rate": 0,
+    "image": "https://lnk.sortly.co/v2/downloads/photo/v2_bCE4NLvgg9XcPjgCHzZ17wqt7tF7D90F4rMBQnpuQu3I4Z9qtWGZuw=="
+  },
+  {
+    "id": "SIG5PT0603",
+    "name": "(Ashley's) Wendfield Floor Lamp",
+    "cat": "lighting",
+    "dims": "Dimensions TBD",
+    "rate": 0,
+    "image": "https://lnk.sortly.co/v2/downloads/photo/v2_-zU-mMStZQpT1i5GAMBFC98KvfUQ-iQEt0EMel5q8bYbspu0IUDcag=="
+  },
+  {
+    "id": "SIG5PT0577",
+    "name": "Noah Mid Century Modern Walnut Wood Floor Lamp with Marble Base",
+    "cat": "lighting",
+    "dims": "Dimensions TBD",
+    "rate": 0,
+    "image": "https://lnk.sortly.co/v2/downloads/photo/v2_y5XCEBcpMFkbJ1SA5iBYePmdccEactFUA3fz5cuW-uhmyXjBoK9kUA=="
+  },
+  {
+    "id": "SIG5PT1647",
+    "name": "Safavieh Leif Floor Lamp",
+    "cat": "lighting",
+    "dims": "68\"H x 15\"W x 7.75\"D",
+    "rate": 0,
+    "image": "https://lnk.sortly.co/v2/downloads/photo/v2_OuG6PYAWDPUkm0R-TBQX8mU6mULAQqdf1mM7niSlQgMf04EDihGQSA=="
+  },
+  {
+    "id": "SIG5PT0586",
+    "name": "(ELK Home) Rutherford 1 Light 15 inch Weathered Zinc with Polished Nickel Pendant Ceiling Light",
+    "cat": "lighting",
+    "dims": "Dimensions TBD",
+    "rate": 0,
+    "image": "https://lnk.sortly.co/v2/downloads/photo/v2_6Ggj2RDbOeGi2gGYTH_oDFKnAj1fNhRE4fOliHgyRmkBq_4Y9bgw5g=="
+  },
+  {
+    "id": "SIG5PT0585",
+    "name": "(ELK Lighting) Rutherford 15-inch 1-Light Pendant in Polished Nickel",
+    "cat": "lighting",
+    "dims": "Dimensions TBD",
+    "rate": 0,
+    "image": "https://lnk.sortly.co/v2/downloads/photo/v2_sNplaZ22k9j7fAsiwrxGQMzSUvtq3J2QVvWaZleNR0U6-NvqGz9Qrw=="
+  },
+  {
+    "id": "SIG5PT0587",
+    "name": "(Elegant Lighting) Clive 3 Light 35\" Wide Linear Pendant",
+    "cat": "lighting",
+    "dims": "Dimensions TBD",
+    "rate": 0,
+    "image": "https://lnk.sortly.co/v2/downloads/photo/v2_G9V3ZWEHAAtAidbdwTx4qfD5W6Md9dm90U6LGtnBKh6vq990_bYx0A=="
+  },
+  {
+    "id": "SIG5PT0592",
+    "name": "(Elegant Lighting) Hanson 1-Light Bath Sconce, Polished Nickel & Frosted Shade",
+    "cat": "lighting",
+    "dims": "Dimensions TBD",
+    "rate": 0,
+    "image": "https://lnk.sortly.co/v2/downloads/photo/v2_5frVwzpzU-kMkHLpGjA2azPux6V3sOFZgkXl3ZOInFpiW_JTx8DJ6A=="
+  },
+  {
+    "id": "SIG5PT0588",
+    "name": "(Elegant Lighting) Nolan 6 Light Pendant",
+    "cat": "lighting",
+    "dims": "Dimensions TBD",
+    "rate": 0,
+    "image": "https://lnk.sortly.co/v2/downloads/photo/v2__d01CqjrlRw5_naIVw5xqpNhPnHiAUeX-FavNxAdu2ozk3hDiYvCIw=="
+  },
+  {
+    "id": "SIG5PT0578",
+    "name": "(JONATHAN Y Lighting) Nathan 3 Light 39\" Wide LED Linear Pendant, Oil Rub",
+    "cat": "lighting",
+    "dims": "Dimensions TBD",
+    "rate": 0,
+    "image": "https://lnk.sortly.co/v2/downloads/photo/v2_5fu822L_mIEB-Lo3OCE6ajB2lnlRmsAr4uLGCZPCKYzPq-JDWnJNqg=="
+  },
+  {
+    "id": "SIG5PT0595",
+    "name": "(Karjearl) Large Black + Gold Dome Pendant Light",
+    "cat": "lighting",
+    "dims": "Dimensions TBD",
+    "rate": 0,
+    "image": "https://lnk.sortly.co/v2/downloads/photo/v2_27Q7xfj32Ey7BoXYVbySWeE6kuHbyegV-L9n32jHHcbaoEruHfB1SA=="
+  },
+  {
+    "id": "SIG5PT0583",
+    "name": "(Uttermost®) Placuna Bronze 1-Light Pendant",
+    "cat": "lighting",
+    "dims": "Dimensions TBD",
+    "rate": 0,
+    "image": "https://lnk.sortly.co/v2/downloads/photo/v2_7oIYCK0Nkg0x-F3UBIWQIZOCAx0E-2Wor6G5p6MXP1GBU4Xb-LmGIA=="
+  },
+  {
+    "id": "SIG5PT0573",
+    "name": "Avalbane Pendant Light",
+    "cat": "lighting",
+    "dims": "Dimensions TBD",
+    "rate": 0,
+    "image": "https://lnk.sortly.co/v2/downloads/photo/v2_8j-rpk0DFHax4Jp6gkYpf1kx_RfrMTxExqp6VIkML61YOVVKbZziiQ=="
+  },
+  {
+    "id": "SIG5PT1303",
+    "name": "(Ashley Luxe) Ceramic Vessel Table Lamp",
+    "cat": "lighting",
+    "dims": "Width 18\" Height 25.5\" Depth 18\"",
+    "rate": 0,
+    "image": "https://lnk.sortly.co/v2/downloads/photo/v2_Q7HXGtuNm9sIqUy0M5iE_CGNxyeGZyDNWmvT3qgkgJQ52IQyPSkX_Q=="
+  },
+  {
+    "id": "SIG5PT1311",
+    "name": "(Ashley Luxe) Stone Teardrop Table Lamp",
+    "cat": "lighting",
+    "dims": "Width 18\" Height 34.5\" Depth 18\"",
+    "rate": 0,
+    "image": "https://lnk.sortly.co/v2/downloads/photo/v2_YJEd7y7QLNYTck3JzypTSByJg91cf2CKru3dwdd_6vOw29m1yBxabA=="
+  },
+  {
+    "id": "SIG5PT2333",
+    "name": "(Ashley's) Dingerly Glass Table Lamp (1/CN)",
+    "cat": "lighting",
+    "dims": "Width: 14.38\" Height: 28.38\" Depth: 14.38\"",
+    "rate": 0,
+    "image": "https://lnk.sortly.co/v2/downloads/photo/v2_Fbr58f-lfMVZEJLMsjaCtlrMchoxD-u2MmbLNmNzsx45S-inZeAoAg=="
+  },
+  {
+    "id": "SIG5PT0609",
+    "name": "(Ashley's) Dingerly Table Lamp",
+    "cat": "lighting",
+    "dims": "Dimensions TBD",
+    "rate": 0,
+    "image": "https://lnk.sortly.co/v2/downloads/photo/v2_xg_vTNbu4dQpAFDMwswgBj2BOHCUBSZDnuWDfYVx2A5mk4UsR1FMVA=="
+  },
+  {
+    "id": "SIG5PT2294",
+    "name": "(Ashley's) Gizeh Glass Table Lamp (1/CN)",
+    "cat": "lighting",
+    "dims": "Width: 18.25\" Height: 32.13\" Depth: 18.25\"",
+    "rate": 0,
+    "image": "https://lnk.sortly.co/v2/downloads/photo/v2_rjOV2eoLbZVVrP3iMTGvumc_7kWGRAu0hMfn3-DMjp-Z-FICInqcbQ=="
+  },
+  {
+    "id": "SIG5PT2313",
+    "name": "(Ashley's) Harif Paper Table Lamp (1/CN)",
+    "cat": "lighting",
+    "dims": "Width: 18.25\" Height: 26.63\" Depth: 10.00\"",
+    "rate": 0,
+    "image": "https://lnk.sortly.co/v2/downloads/photo/v2_tLTSCpfDFeRymGGpyoTI1HZi2a-m-OKyj69h0_GEfXkv4kQu0XikUQ=="
+  },
+  {
+    "id": "SIG5PT0605",
+    "name": "(Ashley's) Layal Table Lamp",
+    "cat": "lighting",
+    "dims": "Dimensions TBD",
+    "rate": 0,
+    "image": "https://lnk.sortly.co/v2/downloads/photo/v2_eflWDaCpjLy_XjWFNmq2IYFJh_1iZZ54IsahF1cIEcBAJmNg-0Gcbg=="
+  },
+  {
+    "id": "SIG5PT0602",
+    "name": "(Ashley's) Marnina Table Lamp: Set of 2",
+    "cat": "lighting",
+    "dims": "Dimensions TBD",
+    "rate": 0,
+    "image": "https://lnk.sortly.co/v2/downloads/photo/v2_6UyeZLWlDXPH0jfhHJ6hXx6VwRQQkIVBB8CdEg3dTqxyCrFQbLHdOg=="
+  },
+  {
+    "id": "SIG5PT2305",
+    "name": "(Ashley's) Maykins Metal Table Lamp (1/CN)",
+    "cat": "lighting",
+    "dims": "Width: 16.13\" Height: 33.13\" Depth: 16.13\"",
+    "rate": 0,
+    "image": "https://lnk.sortly.co/v2/downloads/photo/v2_Vn8fnKHHGcq2Z6gIXFIMhmFmk3pLQaTVkFCMHZzUsIQVE9vZZwcFHA=="
+  },
+  {
+    "id": "SIG5PT0601",
+    "name": "(Ashley's) Perringhill Table Lamp",
+    "cat": "lighting",
+    "dims": "Width: 16.25\" Height: 30.88\" Depth: 16.25\"",
+    "rate": 0,
+    "image": "https://lnk.sortly.co/v2/downloads/photo/v2_zA_G3ByevHEZMK6cC4bj39S9pUvFzQb3AHY1DSkiGt_LqkwlXKIITw=="
+  },
+  {
+    "id": "SIG5PT0606",
+    "name": "(Ashley's) Scantor Table Lamp",
+    "cat": "lighting",
+    "dims": "Width: 17.13\" Height: 25.38\" Depth: 17.13\"",
+    "rate": 0,
+    "image": "https://lnk.sortly.co/v2/downloads/photo/v2_8LnRmAtbSzWKbBMv5wCa7wW68sLs1IxFgOegTaQ00xqf3YSflQl8SQ=="
+  },
+  {
+    "id": "SIG5PT0581",
+    "name": "(Ashley's) Shavon Table Lamp",
+    "cat": "lighting",
+    "dims": "Dimensions TBD",
+    "rate": 0,
+    "image": "https://lnk.sortly.co/v2/downloads/photo/v2_jR4WfnkN6t0fFFHcvB0S0Ew5rqX8GhZPKXmne3Sc3Rxh2WDOXMCL5A=="
+  },
+  {
+    "id": "SIG5PT2321",
+    "name": "(Ashley's) Zandophen Metal Table Lamp (1/CN)",
+    "cat": "lighting",
+    "dims": "Width: 18.13\" Height: 24.00\" Depth: 18.13\"",
+    "rate": 0,
+    "image": "https://lnk.sortly.co/v2/downloads/photo/v2_9scrVBONphxK1981RFZFJCKco60TbP0JVqJkjBjbprALy8RB2NKb6A=="
+  },
+  {
+    "id": "SIG5PT0576",
+    "name": "(Safavieh) Table Lamps 24-in Black LED Incandescent On/Off switch Table Lamp with Metal Shade",
+    "cat": "lighting",
+    "dims": "Dimensions TBD",
+    "rate": 0,
+    "image": "https://lnk.sortly.co/v2/downloads/photo/v2_gfxaDq-kXn4aDinQ87LJOt0FMh3MfKW-TfaWREm4xJEyCYVIqIGE7A=="
+  },
+  {
+    "id": "SIG5PT0612",
+    "name": "20 .75 in. Black Stoneware Table Lamp with Linen Drum Shade",
+    "cat": "lighting",
+    "dims": "Dimensions TBD",
+    "rate": 0,
+    "image": "https://lnk.sortly.co/v2/downloads/photo/v2_2R47TeMKeZk7yjW_NGZnmiqATOTa9eKriQVjE673L2Nq9CEoUq0JfA=="
+  },
+  {
+    "id": "SIG5PT1306",
+    "name": "Ceramic Assembled Table Lamp White",
+    "cat": "lighting",
+    "dims": "24\"x16\"",
+    "rate": 0,
+    "image": "https://lnk.sortly.co/v2/downloads/photo/v2_FUnYkG81WCUWCi1yuW1X5XPaXowFrLQbWxk3GAsXh4VrAf34FjoZWg=="
+  },
+  {
+    "id": "SIG5PT1327",
+    "name": "Ixora 17.75 Inch Table Lamp",
+    "cat": "lighting",
+    "dims": "9.875\" x 9.875\" x 17.75\"",
+    "rate": 0,
+    "image": "https://lnk.sortly.co/v2/downloads/photo/v2_kw9lq7eL84OPJqLs6EuWqA58fFIegUK6gTks_EOeSJUGT-WPLcV8uA=="
+  },
+  {
+    "id": "SIG5PT0575",
+    "name": "Naareman Table Lamp",
+    "cat": "lighting",
+    "dims": "Dimensions TBD",
+    "rate": 0,
+    "image": "https://lnk.sortly.co/v2/downloads/photo/v2_mpJVH4PkcM5HKJBU5G2wOIdxYIz4b-g5cAOi3JC8YYIQ1a--s8l9sw=="
+  },
+  {
+    "id": "SIG5PT1309",
+    "name": "Round Stoneware Desk Lamp",
+    "cat": "lighting",
+    "dims": "20.75\" H x 13\" L x 13\" W",
+    "rate": 0,
+    "image": "https://lnk.sortly.co/v2/downloads/photo/v2_VCOOAQyc5YCA6dsJKAql-dWJjtRPr4aQvkAhCC3BaJRj-YfUqk6AfQ=="
+  },
+  {
+    "id": "SIG5PT1652",
+    "name": "Terra Cotta Pillar Table Lamps",
+    "cat": "lighting",
+    "dims": "Height 20 Inches Diameter 11 Inches",
+    "rate": 0,
+    "image": "https://lnk.sortly.co/v2/downloads/photo/v2_M9RsSY8hRH7TeAQ5hMv-8jy1BFicBM1WNIa8tZH21ZHPeDA9JdPVig=="
   },
   {
     "id": "SIG5PT2121",
